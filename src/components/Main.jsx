@@ -13,6 +13,13 @@ const Main = () => {
         backgroundColor: "white",
       }}
     >
+      <View
+        style={{
+          width: 390,
+          height: 20,
+          backgroundColor: "255, 255, 255, 0.79",
+        }}
+      />
       <Text style={{ fontSize: 45, color: "#232121" }}>
         ¿Cómo{" "}
         <Text
@@ -25,6 +32,13 @@ const Main = () => {
           trabajamos?
         </Text>
       </Text>
+      <View
+        style={{
+          width: 390,
+          height: 20,
+          backgroundColor: "255, 255, 255, 0.79",
+        }}
+      />
       <Text></Text>
       <Text
         style={{
@@ -41,14 +55,23 @@ const Main = () => {
       <View>
         <Text></Text>
         <Image style={styles.image} source={imagen1}></Image>
+        <Text style={{ fontSize: 20, textAlign: "center" }}>
+          Programa Informa - ODS
+        </Text>
       </View>
       <View>
         <Text></Text>
         <Image style={styles.image} source={imagen2}></Image>
+        <Text style={{ fontSize: 20, textAlign: "center" }}>
+          Difusión Virtual
+        </Text>
       </View>
       <View>
         <Text></Text>
         <Image style={styles.image} source={imagen3}></Image>
+        <Text style={{ fontSize: 20, textAlign: "center" }}>
+          Participación Ciudadana
+        </Text>
       </View>
     </ScrollView>
   );
